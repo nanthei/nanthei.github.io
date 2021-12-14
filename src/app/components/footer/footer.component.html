@@ -1,0 +1,57 @@
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <section
+    class="
+      d-flex
+      justify-content-center justify-content-lg-between
+      p-4
+      border-bottom
+    "
+  >
+    <div class="me-5 d-lg-block text-white">
+      <h6>BELVEDERE KITCHEN</h6>
+    </div>
+  </section>
+
+  <!-- INFO  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <!-- Kontaktai -->
+        <div class="col-lg-6 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Kontaktai</h6>
+          <p>Arijus Viskanta</p>
+          <p>+ 370 682 39 433</p>
+          <p>arijus@uzuolaidos.lt</p>
+          <p>
+            Jurbarko r. sav., Seredžiaus sen., Rūstekonių k., Stasio Santvaro 8
+          </p>
+          <div class="d-flex mt-lg-4">
+            <div class="col-6">
+              <img src="assets/es.png" alt="" width="150px" class="ml-5"/>
+            </div>
+            <div class="col-6">
+              <h4 class="text-left">Kuriame Lietuvos ateitį</h4>
+              <p class="text-left">
+                2014-2020 metų Europos Sąjungos fondų investicijų veiksmų programa
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="col-lg-6 mx-auto mb-4">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+              <google-map [options]="mapOptions">
+                <map-marker [position]="marker.position"></map-marker>
+              </google-map>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Links  -->
+</footer>
+<!-- Footer -->
