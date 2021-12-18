@@ -11,8 +11,8 @@ import { GoogleMapsModule } from '@angular/google-maps';
 import { WorkshopComponent } from './components/workshop/workshop.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { NgImageSliderModule } from 'ng-image-slider';
-// import { ReactiveFormsModule } from '@angular/forms';
-// import { HttpClientModule } from "@angular/common/http";
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     BodyComponent,
     WorkshopComponent,
     GalleryComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -29,8 +30,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     BrowserAnimationsModule,
     GoogleMapsModule,
     NgImageSliderModule,
-    // ReactiveFormsModule,
-    // HttpClientModule
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,800;1,600&display=swap');
+
 .bg-custom {
-    // background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1a/24701-nature-natural-beauty.jpg);
     min-height: 100vh;
     background-image: url('/assets/p (32).jpg');
     background-size: cover;
     background-position: center center;
+    font-family: 'Nunito', sans-serif;
 }
+
+.opac {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
